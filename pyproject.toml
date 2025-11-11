@@ -1,0 +1,14 @@
+[project]
+name = "unifloral"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "distrax>=0.1.5",
+    "flax==0.6.11",
+    "gym==0.23.1",
+    "jax[cuda12,cuda12-pip]==0.4.16",
+    "mujoco-py==2.1.2.14",
+    "optax==0.1.5",
+]
